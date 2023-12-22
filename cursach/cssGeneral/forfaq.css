@@ -1,0 +1,23 @@
+details > summary {
+    padding: 5px;
+    background-color: transparent;
+    color: lightgray;
+    border: 0;
+    cursor: pointer;
+    font-family: Impact;
+     
+    
+}
+
+details > div {
+    border: 1px #ccc solid;
+    padding: 10px;
+    font-family: Impact;
+}
+
+details[open] > summary {
+color:rgb(0, 110, 255); 
+background-color:transparent;
+font-family: Impact;
+
+}

@@ -1,0 +1,30 @@
+.mainblockk { 
+    width: 50%;
+    height: 60%;
+    color:lightgray;
+    font-family:Impact;
+    font-size: 200%;
+    text-align: center;
+    background: transparent;
+    border: 0 solid rgb(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow:  0 15px 25px rgba(0, 0, 0, 0.6);
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    float: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 10px;
+        }
+        body {
+    background-image: url(../pics/halfback);
+    background-size: cover;
+    align-items: center;
+    /*background-blend-mode: multiply;
+    background-color: white;*/
+        }
+
+       

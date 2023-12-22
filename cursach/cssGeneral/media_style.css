@@ -1,0 +1,13 @@
+@media (max-width: 480px) {
+    .mainblock {
+    width: 500px;
+    font-size: medium;
+    }
+}
+@media (max-width: 1200px)
+{
+    .mainblock{
+        width: 1200px;
+        font-size: 1000px;
+    }
+}

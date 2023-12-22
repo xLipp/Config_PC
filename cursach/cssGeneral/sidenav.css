@@ -1,0 +1,38 @@
+/*блок меню*/
+ul{
+    margin: 20%;
+    padding: 0;
+  }
+  ul.nav li {
+    background: rgba(29, 29, 34, 0.479);
+    border: 1px solid #FFFFFF;
+    list-style: none;
+    width: 20%;         /*ширина блока меню*/
+  }
+  ul.nav li a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px 5px 15px;
+  }
+  ul.nav li ul {
+    display: none;	/*скрываем вложенные пункты*/
+  }
+  
+  /*Выпадающее меню*/
+  
+  .nav li a:hover {
+    /* позиционирование вложенных элементов
+     * будет расчитыватьться относительно
+     * родительского элемента
+     */
+    position: relative;
+    background: yellow;
+  }
+  ul.nav li:hover > ul {
+    display: block;
+  }
+  ul.nav li:hover ul{
+    position: absolute;
+    top: 0;       /*Задаём координаты для вложенных пунктов*/
+    left: 150px; /*меню раскрывается вправо*/
+  }

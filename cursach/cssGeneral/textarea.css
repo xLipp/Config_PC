@@ -1,0 +1,14 @@
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: lightgray;
+  }
+  textarea:focus {
+    border-color: rgb(0, 110, 255);
+    outline: none;
+  }
